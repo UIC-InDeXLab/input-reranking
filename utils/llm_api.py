@@ -4,14 +4,13 @@ import re
 import tiktoken
 
 openai_client = OpenAI(api_key="") # Use your API key here
-ollama_client = Client(host="http://localhost:11444")
+ollama_client = Client(host="http://localhost:11434")
 
-def ask(questions, model, port=None):
+def ask(questions, model, address=None):
     is_gpt = "gpt" in model
 
-    if not is_gpt and port is not None:
-        ollama_client = Client(host=f"http://localhost:{port}")
-
+    if not is_gpt and address is not None:
+        ollama_client = Client(host=address)
     api = ollama_client.chat if not is_gpt else openai_client.chat.completions.create
 
     response = api(
