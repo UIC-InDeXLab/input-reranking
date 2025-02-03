@@ -35,13 +35,3 @@ Contains utility implementations:
 A standalone notebook that measures the LLM's output error for varying graph sizes in the **Graph Degree Task**. Provides baseline insights for the experiments.
 
 ---
-
-## Citation
-```
-@article{dehghankar2024rank,
-  title={Rank It, Then Ask It: Input Reranking for Maximizing the Performance of LLMs on Symmetric Tasks},
-  author={Dehghankar, M. and Asudeh, A.},
-  journal={arXiv preprint arXiv:2412.00546},
-  year={2024}
-}
-```
