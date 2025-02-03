@@ -1,11 +1,5 @@
 # Rank It, Then Ask It: Input Reranking for Maximizing the Performance of LLMs on Symmetric Tasks
 
-This repository accompanies the preprint:
-
-**Dehghankar, M., & Asudeh, A. (2024).**  
-[Rank It, Then Ask It: Input Reranking for Maximizing the Performance of LLMs on Symmetric Tasks](https://arxiv.org/abs/2412.00546)  
-Published on ArXiv, 2024.
-
 ## Overview
 
 This project implements the methodology and experiments discussed in the paper. It explores how input reranking improves the performance of Large Language Models (LLMs) on symmetric tasks. The repository is organized into several subdirectories and files for clarity and modularity.
