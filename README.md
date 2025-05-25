@@ -4,6 +4,22 @@
 
 This project implements the methodology and experiments discussed in the paper. It explores how input reranking improves the performance of Large Language Models (LLMs) on symmetric tasks. The repository is organized into several subdirectories and files for clarity and modularity.
 
+### Citation
+```
+@inproceedings{dehghankar2025rank,
+  author    = {Dehghankar, Mohsen and Asudeh, Abolfazl},
+  title     = {Rank It, Then Ask It: Input Reranking for Maximizing the Performance of LLMs on Symmetric Tasks},
+  booktitle = {Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD '25)},
+  year      = {2025},
+  isbn      = {979-8-4007-1454-2/2025/08},
+  doi       = {10.1145/3711896.3737099},
+  publisher = {Association for Computing Machinery},
+  address   = {Toronto, ON, Canada},
+  month     = {August 3--7},
+  url       = {https://doi.org/10.1145/3711896.3737099}
+}
+```
+
 ---
 
 ## Repository Structure
